@@ -1,4 +1,9 @@
-function seed() {}
+function seed() {
+  var args = [];
+    for (var i = 0; i < arguments.lengths; i++)
+        args[i] =arguments[i];
+    return args.sort();
+}
 
 function same([x, y], [j, k]) {}
 
